@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-09T16:40:22 IST" name="Suite" finished-at="2023-01-09T16:40:22 IST" duration-ms="182">
+  <suite started-at="2023-02-07T17:17:52 IST" name="Default suite" finished-at="2023-02-07T17:19:32 IST" duration-ms="100318">
     <groups>
     </groups>
-    <test started-at="2023-01-09T16:40:22 IST" name="Test" finished-at="2023-01-09T16:40:22 IST" duration-ms="182">
-      <class name="xmlParametrization.PracticeTest">
-        <test-method signature="demoTest(org.testng.xml.XmlTest)[pri:0, instance:xmlParametrization.PracticeTest@53aac487]" started-at="2023-01-09T16:40:22 IST" name="demoTest" finished-at="2023-01-09T16:40:22 IST" duration-ms="26" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.xml.XmlTest@64eb61d5]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-02-07T17:17:52 IST" name="Default test" finished-at="2023-02-07T17:19:32 IST" duration-ms="100318">
+      <class name="mavencmd.PracticeTest">
+        <test-method signature="test0()[pri:0, instance:mavencmd.PracticeTest@614ca7df]" started-at="2023-02-07T17:17:52 IST" name="test0" finished-at="2023-02-07T17:18:35 IST" duration-ms="42603" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoTest -->
-      </class> <!-- xmlParametrization.PracticeTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test0 -->
+        <test-method signature="test1()[pri:0, instance:mavencmd.PracticeTest@614ca7df]" started-at="2023-02-07T17:18:35 IST" name="test1" finished-at="2023-02-07T17:18:57 IST" duration-ms="22076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test3()[pri:0, instance:mavencmd.PracticeTest@614ca7df]" started-at="2023-02-07T17:18:57 IST" name="test3" finished-at="2023-02-07T17:19:32 IST" duration-ms="35458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- mavencmd.PracticeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
