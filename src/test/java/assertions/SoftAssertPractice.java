@@ -3,7 +3,7 @@ package assertions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
+//SoftAssert
 public class SoftAssertPractice {
 	@Test
 	public void demo() {
